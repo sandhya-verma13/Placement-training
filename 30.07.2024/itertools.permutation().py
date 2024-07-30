@@ -1,6 +1,6 @@
 from itertools import permutations
-m=input().split()
-k=''.join(sorted(m[0]))
-l=permutations(k,int(m[1]))
-for k in l:
-    print(''.join(k))
+n=input().split()
+s=''.join(sorted(n[0]))
+b=permutations(s,int(n[1]))
+for s in b:
+    print(''.join(s))
